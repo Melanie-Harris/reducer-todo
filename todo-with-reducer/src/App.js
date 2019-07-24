@@ -28,11 +28,12 @@ function App() {
    }
 
   return (
+    <div className="container">
     <div className="App-header">
       {/*  pass functions in components as props */}
       <Forms AddItem={AddItem} />
       <ListTodos Clear={Clear} toggleItem={toggleItem} task={state.todos}/>
-      
+      </div>
     </div>
   );
 }

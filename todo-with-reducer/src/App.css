@@ -18,6 +18,9 @@
   font-size: calc(10px + 2vmin);
   color: black;
   background-image: url("https://images.pexels.com/photos/934011/pexels-photo-934011.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-link {
@@ -32,9 +35,14 @@
     transform: rotate(360deg);
   }
 }
-
+.container{
+width: 55%;
+margin-left: 23%;
+}
 .styling {
   text-decoration: line-through;
+  color: gray;
+  font-style: italic;
 }
 
 .fontSize{
@@ -47,5 +55,6 @@ input{
   text-align: center;
   border-radius: 20px;
   color: black;
+  
   
 }
