@@ -24,6 +24,7 @@ export const initialState = {
 };
 
 // reducer hook to set up state in the component
+// exporting the cases to bring to app.js
 export const ADD_ITEM = "ADD_ITEM"
 export const CLEAR= "CLEAR"
 export const TOGGLE_TODO="TOGGLE_TODO"

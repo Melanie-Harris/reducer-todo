@@ -4,9 +4,10 @@ export default function Todos(props) {
     console.log(props)
     return (
         <div>
-            <h2 onClick={() => props.toggleItem(props.item.id)}>{props.item.task}</h2>
-            <h2>{props.item.id}</h2>
-            <h2>{!props.item.completed ? "false" : "true"}</h2>
+            {/* <p>id: {props.item.id}</p> */}
+            <div className={props.item.completed ? 'styling' : ''} onClick={() => props.toggleItem(props.item.id)}>{props.item.task}</div>
+            <div >{!props.item.completed ? "(need to do)" : "(done!)"}</div>
+            <br></br>
         </div>
     )
 }

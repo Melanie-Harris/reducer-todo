@@ -16,7 +16,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  background-image: url("https://images.pexels.com/photos/934011/pexels-photo-934011.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
 }
 
 .App-link {
@@ -30,4 +31,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.styling {
+  text-decoration: line-through;
+}
+
+.fontSize{
+  font-size: 20px;
 }
