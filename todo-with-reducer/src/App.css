@@ -40,3 +40,12 @@
 .fontSize{
   font-size: 20px;
 }
+
+input{
+  width: 250px;
+  height: 25px;
+  text-align: center;
+  border-radius: 20px;
+  color: black;
+  
+}

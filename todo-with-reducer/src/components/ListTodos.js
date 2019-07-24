@@ -10,7 +10,7 @@ export default function ListTodos(props) {
                     return <Todos toggleItem={props.toggleItem} item={item} key={i}/>
                 })}
             </ul>
-            <button onClick={props.Clear} >Delete</button>
+            <button onClick={props.Clear} >Clear Selected Task</button>
         </div>
     )
 }

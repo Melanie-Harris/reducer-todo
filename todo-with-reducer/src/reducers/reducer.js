@@ -1,22 +1,22 @@
 export const initialState = {
     todos: [
         {
-            task: 'workout',
+            task: 'Workout',
             id: 123,
             completed: false
         },
         {
-            task: 'study',
+            task: 'Study',
             id: 124,
             completed: false
         },
         {
-            task: 'meditate',
+            task: 'Meditate',
             id: 1235,
             completed: false
         },
         {
-            task: 'code',
+            task: 'Code',
             id: 1246,
             completed: false
         },

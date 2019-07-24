@@ -25,7 +25,7 @@ export default class Forms extends Component {
             // 4) call onsubmit and {the name of function}
             <form onSubmit={submitItem}> 
             {/* 2) creat input */}
-                <input type="text" name="input" placeholder="todos" value={this.state.input} onChange={handleChanges}/>     
+                <input type="text" name="input" placeholder="Add new task here, then press enter" value={this.state.input} onChange={handleChanges}/>   
             </form>
         )
     }
